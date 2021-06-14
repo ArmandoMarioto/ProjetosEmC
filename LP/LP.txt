@@ -1,0 +1,30 @@
+#include<stdio.h>
+#include<conio.h>
+#include<string.h>
+#include<stdlib.h>
+#include "myconio.h"
+#define TF 50
+void executa( char nomearq[])
+{
+    char aux;
+    FILE *arq=fopen(nomearq, "r");
+    system("cls");
+    if (arq!=NULL)
+    {
+        aux=fgetc(arq);
+        while(!feof(arq))
+            printf("%c", aux);
+    }
+    else 
+        printf("Nao foi possivel abrir o arquivo");
+    getch();
+}
+int main( void )
+{
+    char nomearq[50];
+    printf("Nome Do Arquivo: ");
+    fflush(stdin);
+    gets(nomearq);
+    executa(nomearq);
+    return 0;
+}

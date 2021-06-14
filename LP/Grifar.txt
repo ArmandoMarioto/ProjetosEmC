@@ -1,0 +1,12 @@
+int
+char
+float
+double
+if
+else
+return
+true
+false
+bool
+void
+struct

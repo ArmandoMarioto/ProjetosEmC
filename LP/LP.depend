@@ -1,0 +1,13 @@
+# depslib dependency file v1.0
+1460913395 source:c:\users\luish\desktop\lp\main.cpp
+	<stdio.h>
+	<conio.h>
+	<string.h>
+	<stdlib.h>
+	"myconio.h"
+
+1460911467 c:\users\luish\desktop\lp\myconio.h
+	<conio.h>
+	<windows.h>
+	<stdio.h>
+
